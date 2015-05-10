@@ -18,6 +18,8 @@ img { border: none; }
 a { text-decoration:  none; color: white; }
 #header {
     padding: 5px 0px;
+	max-width: 940px;
+    margin: 0px auto 0px auto;
 }
 #header a img {
     border:5px solid #FFFFFF;
@@ -35,6 +37,7 @@ a { text-decoration:  none; color: white; }
     float: left;
     margin: 22px 30px;
 }
+
 #header ul li a {
     font-size: 18px;
     border-radius: 20px;
@@ -46,9 +49,11 @@ a { text-decoration:  none; color: white; }
     text-transform: uppercase;
     padding: 10px 20px 10px 20px;
     background-color: #203748;
+	-webkit-transition: background-color 1s;
+    transition: background-color 1s;
 }
 #header ul li a:hover {
-    background-color: #002642;
+    background-color: #aa0101;
 }
 #my-image {
     float: left;
@@ -99,9 +104,10 @@ a { text-decoration:  none; color: white; }
 ul {
     list-style: none;
 }
-.container, #header {
+.container {
     max-width: 940px;
-    margin: 0px auto 50px auto;
+    margin: 0px auto 0px auto;
+	padding-top: 50px;
 }
 .container h2 {
     color: #39d084;
@@ -164,6 +170,10 @@ ul {
 #what-i-do ul li p a {
     color: #FF8040;
 }
+#what-i-do ul li p a:hover {
+    color: #FF8040;
+	text-decoration: underline;
+}
 #connect p {
     background: url(../img/bullet-orange.png) no-repeat left center;
     padding-left: 32px;
@@ -213,15 +223,11 @@ ul {
 	body {
 		font-size: 12px;
 	}
-		#header a img {
-		max-width: 32px;
-		max-height: 32px;
-		border:3px solid #FFFFFF;
-		border-radius: 50%;
-		-moz-border-radius: 50%;
-		-webkit-border-radius: 50%;
-		-ms-border-radius: 50%;
-		-o-border-radius: 50%;
+	#header a img {
+		display: none;
+	}
+	#header ul {
+		width: 100%;
 	}
 	#header ul li {
 		float: left;
@@ -238,5 +244,8 @@ ul {
         text-transform: uppercase;
         padding: 7px 10px 7px 10px;
         background-color: #203748;
+    }
+	#everywhere ul li {
+        width: 150px;
     }
 }
