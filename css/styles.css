@@ -1,0 +1,242 @@
+* {margin: 0px; padding: 0px;}
+@font-face {
+    font-family: Cambria;
+    src: url(../fonts/Cambria.ttf);
+}
+body {
+    background-color: #203748;
+    font-family: Cambria, sans-serif, 'Time New Roman';
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 22px;
+}
+img { border: none; }
+.clear { clear: both; }
+#header-outer {
+    background-color: #F04949;
+}
+a { text-decoration:  none; color: white; }
+#header {
+    padding: 5px 0px;
+}
+#header a img {
+    border:5px solid #FFFFFF;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#header ul {
+    float: right;
+    padding-top: 7px;
+}
+#header ul li {
+    float: left;
+    margin: 22px 30px;
+}
+#header ul li a {
+    font-size: 18px;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 20px;
+    background-color: #203748;
+}
+#header ul li a:hover {
+    background-color: #002642;
+}
+#my-image {
+    float: left;
+}
+#profile-info {
+    max-width: 580px;
+    float: right;
+}
+#profile-info h1 {
+    color: #39D084;
+    margin-bottom: 10px;
+}
+#profile-info h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+#profile-info p {
+    font-size: 17px;
+    line-height: 26px;
+}
+#hire-me {
+    background: #39d084 url(../img/plane.png) no-repeat 30px center;
+    color: white;
+    padding: 20px 60px 20px 80px;
+    border-radius: 40px;
+    font-size: 26px;
+    margin: 20px auto;
+    display: block;
+}
+#hire-me:hover {
+    background-color: #11d170;
+}
+.social-icons li {
+    display: inline;
+    padding-right: 15px;
+}
+.social-icons li a img {
+    width: 48px;
+}
+.social-icons li a:hover img {
+    border: 1px solid white;
+    width: 46px;
+}
+#about p {
+    background: url(../img/bullet.png) no-repeat left center;
+    padding-left: 65px;
+}
+ul {
+    list-style: none;
+}
+.container, #header {
+    max-width: 940px;
+    margin: 0px auto 50px auto;
+}
+.container h2 {
+    color: #39d084;
+    margin-bottom: 20px;
+}
+.container p {
+    padding: 10px 0px;
+}
+#everywhere ul li {
+    display: block;
+    float: left;
+    width: 300px;
+    height: 60px;
+    margin: 0px 10px 10px 0px;
+}
+#everywhere ul li a {
+    max-width: 300px;
+    height: 60px;
+    display: block;
+    line-height: 60px;
+    text-align: center;
+}
+#everywhere ul li a:hover {
+    max-width: 298px;
+    height: 58px;
+    border: 1px solid white;
+}
+#everywhere-facebook {
+    background-color: #5c8727;
+}
+#everywhere-gplus {
+    background-color: #e36f1e;
+}
+#everywhere-youtube {
+    background-color: #0dc3f7;
+}
+#everywhere-twitter {
+    background-color: #ee3224;
+}
+#everywhere-forum {
+    background-color: #007ac3;
+}
+#everywhere-blog {
+    background-color: #77ba43;
+}
+#profile {
+    
+}
+#what-i-do ul li {
+    padding-bottom: 20px;
+}
+#what-i-do ul li img{
+    width: 10%;
+    float: left;
+}
+#what-i-do ul li p {
+    width: 85%;
+    float: right;
+}
+#what-i-do ul li p a {
+    color: #FF8040;
+}
+#connect p {
+    background: url(../img/bullet-orange.png) no-repeat left center;
+    padding-left: 32px;
+}
+#footer-outer {
+    background-color: #355267;
+    border-top: 1px solid #162531;
+}
+#footer {
+    margin: 10px auto 0px auto;
+    max-width: 940px;
+    padding: 20px 0px;
+}
+#footer img, #footer a {
+    display: block;
+    float: left;
+}
+#footer a {
+    margin: 6px 0px 0px 10px;
+}
+
+/*** Responsieve ***/
+@media (max-width: 900px) {
+	body {
+		font-size: 13px;
+	}
+
+	#my-image {
+		float: none;
+		display: block;
+		margin: 0px auto;
+	}
+	#profile-info {
+		float: none;
+		max-width: 100%;
+		text-align: center
+	}
+	#header ul li {
+		float: left;
+		margin: 10px 5px;
+	}
+    #everywhere ul li {
+        width: 200px;
+    }
+}
+@media (max-width: 500px) {
+	body {
+		font-size: 12px;
+	}
+		#header a img {
+		max-width: 32px;
+		max-height: 32px;
+		border:3px solid #FFFFFF;
+		border-radius: 50%;
+		-moz-border-radius: 50%;
+		-webkit-border-radius: 50%;
+		-ms-border-radius: 50%;
+		-o-border-radius: 50%;
+	}
+	#header ul li {
+		float: left;
+		margin: 15px 5px;
+	}
+	#header ul li a {
+        font-size: 13px;
+        border-radius: 7px;
+        -moz-border-radius: 7px;
+        -webkit-border-radius: 7px;
+        -ms-border-radius: 7px;
+        -o-border-radius: 7px;
+        color: white;
+        text-transform: uppercase;
+        padding: 7px 10px 7px 10px;
+        background-color: #203748;
+    }
+}
