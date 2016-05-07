@@ -1,21 +1,35 @@
-* {margin: 0px; padding: 0px;}
+* {
+    margin: 0px; 
+    padding: 0px;
+}
 body {
     background-color: #203748;
-    font-family: Arial, sans-serif, 'Time New Roman';
-    color: #ffffff;
-    font-size: 16px;
-    line-height: 22px;
+    font-family     : "Roboto", Arial, sans-serif, 'Time New Roman';
+    color           : #ffffff;
+    font-size       : 16px;
+    line-height     : 22px;
 }
-img { border: none; }
-.clear { clear: both; }
+img { 
+    border: none; 
+}
+.clear { 
+    clear: both; 
+}
 #header-outer {
     background-color: #F04949;
 }
-a { text-decoration:  none; color: white; }
+a { 
+    text-decoration:  none;
+    color          : white; 
+}
 #header {
-    padding: 5px 0px;
-	max-width: 940px;
-    margin: 0px auto 0px auto;
+    padding  : 5px;
+    max-width: 1000px;
+    margin   : 0px auto 0px auto;
+}
+#header a {
+    display: block;
+    float  : left;
 }
 /*
 #header a img {
@@ -28,64 +42,66 @@ a { text-decoration:  none; color: white; }
 }
 */
 #header ul {
-    float: right;
+    float      : right;
     padding-top: 7px;
 }
 #header ul li {
     float: left;
-    margin: 22px 15px;
+    margin: 22px 0px 22px 30px;
 }
 
 #header ul li a {
-    font-size: 14px;
-    border-radius: 20px;
-    -moz-border-radius: 20px;
+    font-size            : 14px;
+    border-radius        : 20px;
+    -moz-border-radius   : 20px;
     -webkit-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    color: white;
-    text-transform: uppercase;
-    padding: 10px 20px 10px 20px;
-    background-color: #203748;
-	-webkit-transition: background-color 1s;
-    transition: background-color 1s;
+    -ms-border-radius    : 20px;
+    -o-border-radius     : 20px;
+    color                : white;
+    text-transform       : uppercase;
+    padding              : 10px 20px 10px 20px;
+    background-color     : #203748;
+    -webkit-transition   : background-color 1s;
+    transition           : background-color 1s;
 }
 #header ul li a:hover {
     background-color: #aa0101;
 }
 #my-image {
-    float: left;
+    float     : left;
+    margin-top: 30px;
 }
 #profile-info {
-    max-width: 580px;
-    float: right;
+    max-width: 620px;
+    float    : right;
 }
 #profile-info h1 {
-    color: #39D084;
+    color        : #39D084;
     margin-bottom: 10px;
 }
 #profile-info h2 {
-    color: #ffffff;
+    color        : #ffffff;
     margin-bottom: 20px;
 }
 #profile-info p {
-    font-size: 17px;
+    font-size  : 17px;
     line-height: 26px;
+    text-align : justify;
 }
 #hire-me {
-    background: #39d084 url(../img/plane.png) no-repeat 30px center;
-    color: white;
-    padding: 20px 60px 20px 80px;
+    background   : #31c478 url(../images/plane.png) no-repeat 30px center;
+    color        : white;
+    padding      : 20px 60px 20px 80px;
     border-radius: 40px;
-    font-size: 26px;
-    margin: 20px auto;
-    display: block;
+    font-size    : 26px;
+    margin       : 20px auto;
+    display      : block;
 }
 #hire-me:hover {
     background-color: #11d170;
 }
 .social-icons li {
-    display: inline;
+    display      : inline;
     padding-right: 15px;
 }
 .social-icons li a img {
@@ -93,63 +109,80 @@ a { text-decoration:  none; color: white; }
 }
 .social-icons li a:hover img {
     border: 1px solid white;
-    width: 46px;
+    width : 46px;
 }
 #about p {
-    background: url(../img/bullet.png) no-repeat left center;
+    background  : url(../images/bullet.png) no-repeat left center;
     padding-left: 65px;
+    text-align  : justify;
 }
 ul {
     list-style: none;
 }
 .container {
-    max-width: 940px;
-    margin: 0px auto 0px auto;
-	padding-top: 50px;
+    max-width: 1000px;
+    margin   : 0px auto 0px auto;
+    padding  : 50px 5px 0px 5px;
 }
 .container h2 {
-    color: #39d084;
-    margin-bottom: 20px;
+    color        : #39d084;
+    margin-bottom: 30px;
 }
 .container p {
     padding: 10px 0px;
 }
 #everywhere ul li {
     display: block;
-    float: left;
-    width: 300px;
-    height: 60px;
-    margin: 0px 10px 10px 0px;
+    float  : left;
+    width  : 33%;
 }
 #everywhere ul li a {
-    max-width: 300px;
-    height: 60px;
-    display: block;
-    line-height: 60px;
-    text-align: center;
+    height       : 60px;
+    display      : block;
+    line-height  : 60px;
+    text-align   : center;
+    margin       : 5px;
+    border-radius: 5px;
 }
 #everywhere ul li a:hover {
-    max-width: 298px;
-    height: 58px;
-    border: 1px solid white;
+
 }
-#everywhere-facebook {
+#everywhere ul li:nth-child(1) a {
     background-color: #5c8727;
 }
-#everywhere-gplus {
+#everywhere ul li:nth-child(1) a:hover {
+    background-color: #6fa02e;
+}
+
+#everywhere ul li:nth-child(2) a {
     background-color: #e36f1e;
 }
-#everywhere-youtube {
+#everywhere ul li:nth-child(2) a:hover {
+    background-color: #fc7820;
+}
+#everywhere ul li:nth-child(3) a {
     background-color: #0dc3f7;
 }
-#everywhere-twitter {
+#everywhere ul li:nth-child(3) a:hover {
+    background-color: #42d6ff;
+}
+#everywhere ul li:nth-child(4) a {
     background-color: #ee3224;
 }
-#everywhere-forum {
+#everywhere ul li:nth-child(4) a:hover {
+    background-color: #ff3426;
+}
+#everywhere ul li:nth-child(5) a {
     background-color: #007ac3;
 }
-#everywhere-blog {
+#everywhere ul li:nth-child(5) a:hover {
+    background-color: #008ee0;
+}
+#everywhere ul li:nth-child(6) a {
     background-color: #77ba43;
+}
+#everywhere ul li:nth-child(6) a:hover {
+    background-color: #87d14b;
 }
 #profile {
     
@@ -162,8 +195,9 @@ ul {
     float: left;
 }
 #what-i-do ul li p {
-    width: 85%;
-    float: right;
+    width     : 85%;
+    float     : right;
+    text-align: justify;
 }
 #what-i-do ul li p a {
     color: #FF8040;
@@ -173,22 +207,30 @@ ul {
 	text-decoration: underline;
 }
 #connect p {
-    background: url(../img/bullet-orange.png) no-repeat left center;
+    background  : url(../images/bullet-orange.png) no-repeat left center;
     padding-left: 32px;
+}
+#connect-info {
+    width: 50%;
+    float: left;
+}
+#connect img {
+    width: 50%;
+    float: right;
 }
 #footer-outer {
     background-color: #355267;
-    border-top: 1px solid #162531;
-    margin-top: 30px;
+    border-top      : 1px solid #162531;
+    margin-top      : 30px;
 }
 #footer {
-    margin: 10px auto 0px auto;
-    max-width: 940px;
-    padding: 20px 0px;
+    margin   : 10px auto 0px auto;
+    max-width: 1000px;
+    padding  : 20px 0px;
 }
 #footer img, #footer a {
     display: block;
-    float: left;
+    float  : left;
 }
 #footer a {
     margin: 6px 0px 0px 10px;
@@ -199,31 +241,51 @@ ul {
 	body {
 		font-size: 13px;
 	}
-
+    #logo {
+        width: 120px;
+        height: 72px;
+        margin: 10px auto;
+    }
+    #header a, #header ul {
+        float: none;
+    }
+    #header ul {
+        text-align: center;
+    }
+    #header ul li {
+        margin : 10px 5px;
+        display: inline-block;
+        float  : none;
+    }
+    .container h2 {
+        text-align: center;
+    }
+    #hire-me {
+        font-size: 16px;
+        max-width: 400px;
+        background-image: none;
+        text-align: center;
+    }
 	#my-image {
-		float: none;
-		display: block;
-		margin: 0px auto;
+        float  : none;
+        display: block;
+        margin : 0px auto;
 	}
 	#profile-info {
-		float: none;
-		max-width: 100%;
-		text-align: center
+        float     : none;
+        max-width : 100%;
+        text-align: center;
+        margin-top: 20px;
 	}
-	#header ul li {
-		float: left;
-		margin: 10px 5px;
-	}
+	
     #everywhere ul li {
-        width: 200px;
+        width: 50%;
     }
+    
 }
 @media (max-width: 500px) {
 	body {
 		font-size: 12px;
-	}
-	#header a img {
-		display: none;
 	}
 	#header ul {
 		width: 100%;
@@ -233,18 +295,29 @@ ul {
 		margin: 15px 5px;
 	}
 	#header ul li a {
-        font-size: 13px;
-        border-radius: 7px;
-        -moz-border-radius: 7px;
+        font-size            : 13px;
+        border-radius        : 7px;
+        -moz-border-radius   : 7px;
         -webkit-border-radius: 7px;
-        -ms-border-radius: 7px;
-        -o-border-radius: 7px;
-        color: white;
-        text-transform: uppercase;
-        padding: 7px 10px 7px 10px;
-        background-color: #203748;
+        -ms-border-radius    : 7px;
+        -o-border-radius     : 7px;
+        color                : white;
+        text-transform       : uppercase;
+        padding              : 7px 10px 7px 10px;
+        background-color     : #203748;
+    }
+    #hire-me {
+        font-size: 16px;
     }
 	#everywhere ul li {
-        width: 150px;
+        width: 100%;
+    }
+    #connect-info {
+        width: 100%;
+        float: none;
+    }
+    #connect img {
+        width: 100%;
+        float: none;
     }
 }
