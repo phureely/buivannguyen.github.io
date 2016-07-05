@@ -109,8 +109,9 @@ a {
     width: 40px;
 }
 .social-icons li a:hover img {
-    border: 1px solid white;
-    width : 46px;
+    border: 1px solid #0d171e;
+    width : 38px;
+    border-radius: 50%;
 }
 #about {
     background-color: #274256;
@@ -332,6 +333,10 @@ ul {
     }
     .social-icons li a img {
         width: 32px;
+    }
+    .social-icons li a:hover img {
+        border: 1px solid #0d171e;
+        width: 30px;
     }
 	#everywhere ul li {
         width: 100%;
