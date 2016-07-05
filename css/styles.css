@@ -82,6 +82,7 @@ a {
 #profile-info h2 {
     color        : #ffffff;
     margin-bottom: 20px;
+    text-align: left;
 }
 #profile-info p {
     font-size  : 17px;
@@ -111,6 +112,9 @@ a {
     border: 1px solid white;
     width : 46px;
 }
+#about {
+    background-color: #274256;
+}
 #about p {
     background  : url(../images/bullet.png) no-repeat left center;
     padding-left: 65px;
@@ -122,11 +126,12 @@ ul {
 .container {
     max-width: 1000px;
     margin   : 0px auto 0px auto;
-    padding  : 70px 5px 0px 5px;
+    padding  : 70px 5px 90px 5px;
 }
 .container h2 {
     color        : #39d084;
     margin-bottom: 30px;
+    text-align: center;
 }
 .container p {
     padding: 10px 0px;
@@ -187,6 +192,9 @@ ul {
 #profile {
     
 }
+#what-i-do {
+    background-color: #274256;
+}
 #what-i-do ul li {
     padding-bottom: 20px;
 }
@@ -242,6 +250,9 @@ ul {
 	body {
 		font-size: 13px;
 	}
+    .comtainer {
+        padding: 50px 5px;
+    }
     #logo {
         width: 120px;
         height: 72px;
@@ -259,11 +270,11 @@ ul {
         float  : none;
     }
     .container h2 {
-        text-align: center;
+        text-align: center !important;
     }
     #hire-me {
         font-size: 16px;
-        max-width: 400px;
+        max-width: 350px;
         background-image: none;
         text-align: center;
     }
@@ -272,27 +283,32 @@ ul {
         display: block;
         margin : 0px auto;
 	}
+    
 	#profile-info {
         float     : none;
         max-width : 100%;
         text-align: center;
         margin-top: 20px;
 	}
-	
+	#profile-info p {
+        font-size: 14px;
+    }
     #everywhere ul li {
         width: 50%;
     }
     
 }
-@media (max-width: 500px) {
+@media (max-width: 640px) {
 	body {
 		font-size: 12px;
 	}
+    .comtainer {
+        padding: 30px 5px;
+    }
 	#header ul {
 		width: 100%;
 	}
 	#header ul li {
-		float: left;
 		margin: 15px 5px;
 	}
 	#header ul li a {
@@ -307,11 +323,37 @@ ul {
         padding              : 7px 10px 7px 10px;
         background-color     : #203748;
     }
+    #my-image {
+        width: 60%;
+        max-width: 275px;
+    }
     #hire-me {
-        font-size: 16px;
+        font-size: 14px;
+    }
+    .social-icons li a img {
+        width: 32px;
     }
 	#everywhere ul li {
         width: 100%;
+    }
+    #everywhere ul li a {
+        height: 40px;
+        line-height: 40px;
+    }
+    #what-i-do ul li img {
+        display: block;
+        width: 72px;
+        height: 72px;
+        margin: 0px auto;
+        float: none;
+    }
+    #what-i-do ul li p {
+        display: block;
+        width: 100%;
+    }
+    #about p {
+        background: none;
+        padding-left: 5px;
     }
     #connect-info {
         width: 100%;
@@ -319,6 +361,7 @@ ul {
     }
     #connect img {
         width: 100%;
+        margin-top: 20px;
         float: none;
     }
 }
