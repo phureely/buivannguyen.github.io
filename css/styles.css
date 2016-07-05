@@ -242,9 +242,17 @@ ul {
     display: block;
     float  : left;
 }
+#footer ul {
+    float: right;
+}
+#footer ul li {
+    display: block;
+    float: right;
+}
 #footer a {
     margin: 6px 0px 0px 10px;
 }
+
 
 /*** Responsieve ***/
 @media (max-width: 900px) {
