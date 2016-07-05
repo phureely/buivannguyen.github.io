@@ -122,7 +122,7 @@ ul {
 .container {
     max-width: 1000px;
     margin   : 0px auto 0px auto;
-    padding  : 50px 5px 0px 5px;
+    padding  : 70px 5px 0px 5px;
 }
 .container h2 {
     color        : #39d084;
@@ -192,10 +192,11 @@ ul {
 }
 #what-i-do ul li img{
     width: 10%;
+    max-width: 72px;
     float: left;
 }
 #what-i-do ul li p {
-    width     : 85%;
+    width     : 88%;
     float     : right;
     text-align: justify;
 }
@@ -215,7 +216,7 @@ ul {
     float: left;
 }
 #connect img {
-    width: 50%;
+    width: 45%;
     float: right;
 }
 #footer-outer {
