@@ -133,6 +133,9 @@ ul {
     color        : #39d084;
     margin-bottom: 30px;
     text-align: center;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: -1px -1px 1px rgba(57, 208, 132, 0.5);
+    font-size: 2.2em;
 }
 .container p {
     padding: 10px 0px;
