@@ -276,6 +276,9 @@ ul {
 #images ul li {
     padding: 5px;
 }
+#images ul li a {
+    cursor: default;
+}
 #images ul li a img {
     width: 100%;
     -webkit-filter: grayscale(100%);
