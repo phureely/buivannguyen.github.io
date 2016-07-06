@@ -251,7 +251,6 @@ ul {
 #footer-outer {
     background-color: #355267;
     border-top      : 1px solid #162531;
-    margin-top      : 30px;
 }
 #footer {
     margin   : 10px auto 0px auto;
@@ -279,6 +278,12 @@ ul {
 }
 #images ul li a img {
     width: 100%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+#images ul li a:hover img {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
 }
 
 /*** Responsieve ***/
