@@ -1,3 +1,11 @@
+#imagelightbox
+{
+    position: fixed;
+    z-index: 9999;
+ 
+    -ms-touch-action: none;
+    touch-action: none;
+}
 * {
     margin: 0px; 
     padding: 0px;
@@ -119,14 +127,17 @@ a {
 #about {
     background-color: #274256;
 }
-#about p {
-    background  : url(../images/bullet.png) no-repeat left center;
-    padding-left: 65px;
-    text-align  : justify;
+#about ul li {
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    font-weight: normal;
+    padding: 0px 30px;
 }
 ul {
     list-style: none;
 }
+
 .container {
     max-width: 1000px;
     margin   : 0px auto 0px auto;
@@ -138,7 +149,7 @@ ul {
     text-align: center;
     -webkit-font-smoothing: antialiased;
     text-shadow: -1px -1px 1px rgba(57, 208, 132, 0.5);
-    font-size: 2.2em;
+    font-size: 1.8em;
 }
 .container p {
     padding: 10px 0px;
@@ -222,6 +233,9 @@ ul {
     color: #FF8040;
 	text-decoration: underline;
 }
+#connect {
+    background-color: #274256;
+}
 #connect p {
     background  : url(../images/bullet-orange.png) no-repeat left center;
     padding-left: 32px;
@@ -231,7 +245,7 @@ ul {
     float: left;
 }
 #connect img {
-    width: 45%;
+    width: 40%;
     float: right;
 }
 #footer-outer {
@@ -259,6 +273,13 @@ ul {
     margin: 6px 0px 0px 10px;
 }
 
+
+#images ul li {
+    padding: 5px;
+}
+#images ul li a img {
+    width: 100%;
+}
 
 /*** Responsieve ***/
 @media (max-width: 900px) {
