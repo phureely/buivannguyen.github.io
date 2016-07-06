@@ -83,7 +83,8 @@ a {
     color        : #ffffff;
     margin-bottom: 20px;
     text-align: left;
-    font-size: 1.4em;
+    font-size: 1.3em;
+    font-weight: normal;
 }
 #profile-info p {
     font-size  : 17px;
