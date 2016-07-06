@@ -5,7 +5,8 @@ $(document).ready(function(){
     });
     $('#about ul').slick({
     	autoplay: true,
-    	autoplaySpeed: 3000
+    	autoplaySpeed: 7000,
+    	speed: 1500
     });
     $('#images ul').slick({
 	  infinite: true,
