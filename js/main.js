@@ -6,13 +6,22 @@ $(document).ready(function(){
     $('#about ul').slick({
     	autoplay: true,
     	autoplaySpeed: 7000,
-    	speed: 1500
+    	speed: 1500,
+    	arrows: false
     });
+    $('#about-slider-prev').click(function(event){
+    	$('#about ul').slick('slickPrev');
+    });
+    $('#about-slider-next').click(function(event){
+    	$('#about ul').slick('slickNext');
+    });
+
     $('#images ul').slick({
 	  infinite: true,
 	  slidesToShow: 3,
 	  slidesToScroll: 3,
 	  lazyLoad: 'ondemand',
+	  arrows: false,
 	  responsive: [
 	    {
 	      breakpoint: 1024,
@@ -42,20 +51,10 @@ $(document).ready(function(){
 	    // instead of a settings object
 	  ]
 	});
-
-$('#images ul li a').imageLightbox(
-{
-    selector:       'img',   // string;
-    allowedTypes:   'png|jpg|jpeg|gif',     // string;
-    animationSpeed: 250,                    // integer;
-    preloadNext:    true,                   // bool;            silently preload the next image
-    enableKeyboard: true,                   // bool;            enable keyboard shortcuts (arrows Left/Right and Esc)
-    quitOnEnd:      false,                  // bool;            quit after viewing the last image
-    quitOnImgClick: false,                  // bool;            quit when the viewed image is clicked
-    quitOnDocClick: true,                   // bool;            quit when anything but the viewed image is clicked
-    onStart:        false,                  // function/bool;   calls function when the lightbox starts
-    onEnd:          false,                  // function/bool;   calls function when the lightbox quits
-    onLoadStart:    false,                  // function/bool;   calls function when the image load begins
-    onLoadEnd:      false                   // function/bool;   calls function when the image finishes loading
-});
+	$('#images-slider-prev').click(function(event){
+    	$('#images ul').slick('slickPrev');
+    });
+    $('#images-slider-next').click(function(event){
+    	$('#images ul').slick('slickNext');
+    });
 });

@@ -20,6 +20,10 @@ body {
 img { 
     border: none; 
 }
+ul {
+    list-style: none;
+}
+
 .clear { 
     clear: both; 
 }
@@ -127,15 +131,39 @@ a {
 #about {
     background-color: #274256;
 }
+#about .container {
+    position: relative;
+}
+.slider-prev {
+    width: 5%; 
+    position: absolute; 
+    top: 50%;
+    cursor: pointer;
+}
+.slider-prev:hover {
+    opacity: 0.8;
+}
+.slider-next {
+    width: 5%; 
+    position: absolute; 
+    top: 50%;
+    right: 0px;
+    cursor: pointer;
+}
+.slider-next:hover {
+    opacity: 0.8;
+}
+#about ul {
+    max-width: 90%;
+    margin: 0px auto;
+
+}
 #about ul li {
     text-align: center;
     font-size: 1.1em;
     line-height: 1.5em;
     font-weight: normal;
     padding: 0px 30px;
-}
-ul {
-    list-style: none;
 }
 
 .container {
@@ -272,7 +300,12 @@ ul {
     margin: 6px 0px 0px 10px;
 }
 
-
+#images {
+    position: relative;
+}
+#images ul {
+    max-width: 90%;
+}
 #images ul li {
     padding: 5px;
 }
