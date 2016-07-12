@@ -1,23 +1,15 @@
-#imagelightbox
-{
-    position: fixed;
-    z-index: 9999;
- 
-    -ms-touch-action: none;
-    touch-action: none;
-}
 * {
-    margin: 0px; 
+    margin : 0px; 
     padding: 0px;
 }
 body {
     background-color: #203748;
     font-family     : "Roboto", Arial, sans-serif, 'Time New Roman';
     color           : #ffffff;
-    -webkit-font-smoothing: antialiased;
-    text-shadow: 0px 0px 2px rgba(255,255,255,0.5), 0px 0px 6px rgba(0,0,0,0.7);
+    text-shadow     : 0px 0px 2px rgba(255,255,255,0.5), 0px 0px 6px rgba(0,0,0,0.7);
     font-size       : 16px;
     line-height     : 22px;
+    -webkit-font-smoothing: antialiased;
 }
 img { 
     border: none; 
@@ -45,22 +37,12 @@ a {
     display: block;
     float  : left;
 }
-/*
-#header a img {
-    border:5px solid #FFFFFF;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-}
-*/
 #header ul {
     float      : right;
     padding-top: 7px;
 }
 #header ul li {
-    float: left;
+    float : left;
     margin: 22px 0px 22px 30px;
 }
 
@@ -92,17 +74,17 @@ a {
 #profile-info h1 {
     color        : #39D084;
     margin-bottom: 10px;
+    text-shadow  : 0px 0px 2px rgba(57,208,132,0.5), 0px 0px 6px rgba(0,0,0,0.7);
     -webkit-font-smoothing: antialiased;
-    text-shadow: 0px 0px 2px rgba(57,208,132,0.5);
 }
 #profile-info h2 {
     color        : #ffffff;
     margin-bottom: 20px;
-    text-align: left;
-    font-size: 1.3em;
-    font-weight: normal;
+    text-align   : left;
+    font-size    : 1.3em;
+    font-weight  : normal;
+    text-shadow  : 0px 0px 2px rgba(255,255,255,0.5), 0px 0px 6px rgba(0,0,0,0.7);
     -webkit-font-smoothing: antialiased;
-    text-shadow: 0px 0px 2px rgba(255,255,255,0.5);
 }
 #profile-info p {
     font-size  : 17px;
@@ -117,7 +99,7 @@ a {
     font-size    : 26px;
     margin       : 20px auto;
     display      : block;
-    text-shadow: 1px 1px 25px rgba(39, 66, 86, 0.9), 0px 0px 2px rgba(255, 255, 255, 0.9);
+    text-shadow  : 1px 1px 25px rgba(39, 66, 86, 0.9), 0px 0px 2px rgba(255, 255, 255, 0.9);
 }
 #hire-me:hover {
     background-color: #11d170;
@@ -130,8 +112,8 @@ a {
     width: 40px;
 }
 .social-icons li a:hover img {
-    border: 1px solid #0d171e;
-    width : 38px;
+    border       : 1px solid #0d171e;
+    width        : 38px;
     border-radius: 50%;
 }
 #about {
@@ -141,35 +123,35 @@ a {
     position: relative;
 }
 .slider-prev {
-    width: 5%; 
+    width   : 5%; 
     position: absolute; 
-    top: 50%;
-    cursor: pointer;
+    top     : 50%;
+    cursor  : pointer;
 }
 .slider-prev:hover {
     opacity: 0.8;
 }
 .slider-next {
-    width: 5%; 
+    width   : 5%; 
     position: absolute; 
-    top: 50%;
-    right: 0px;
-    cursor: pointer;
+    top     : 50%;
+    right   : 0px;
+    cursor  : pointer;
 }
 .slider-next:hover {
     opacity: 0.8;
 }
 #about ul {
     max-width: 90%;
-    margin: 0px auto;
+    margin   : 0px auto;
 
 }
 #about ul li {
-    text-align: center;
-    font-size: 1.1em;
+    text-align : center;
+    font-size  : 1.1em;
     line-height: 1.5em;
     font-weight: normal;
-    padding: 0px 30px;
+    padding    : 0px 30px;
 }
 
 .container {
@@ -180,10 +162,10 @@ a {
 .container h2 {
     color        : #39d084;
     margin-bottom: 30px;
-    text-align: center;
+    text-align   : center;
+    text-shadow  : -1px -1px 1px rgba(57, 208, 132, 0.5);
+    font-size    : 1.8em;
     -webkit-font-smoothing: antialiased;
-    text-shadow: -1px -1px 1px rgba(57, 208, 132, 0.5);
-    font-size: 1.8em;
 }
 .container p {
     padding: 10px 0px;
@@ -200,7 +182,7 @@ a {
     text-align   : center;
     margin       : 5px;
     border-radius: 5px;
-    text-shadow: 1px 1px 25px rgba(39, 66, 86, 0.9), 0px 0px 2px rgba(255, 255, 255, 0.9);
+    text-shadow  : 1px 1px 25px rgba(39, 66, 86, 0.9), 0px 0px 2px rgba(255, 255, 255, 0.9);
 }
 #everywhere ul li a:hover {
 
@@ -252,9 +234,9 @@ a {
     padding-bottom: 20px;
 }
 #what-i-do ul li img{
-    width: 10%;
+    width    : 10%;
     max-width: 72px;
-    float: left;
+    float    : left;
 }
 #what-i-do ul li p {
     width     : 88%;
@@ -265,8 +247,8 @@ a {
     color: #FF8040;
 }
 #what-i-do ul li p a:hover {
-    color: #FF8040;
-	text-decoration: underline;
+    color          : #FF8040;
+    text-decoration: underline;
 }
 #connect {
     background-color: #274256;
@@ -301,7 +283,7 @@ a {
 }
 #footer ul li {
     display: block;
-    float: right;
+    float  : right;
 }
 #footer a {
     margin: 6px 0px 0px 10px;
@@ -320,9 +302,9 @@ a {
     cursor: default;
 }
 #images ul li a img {
-    width: 100%;
+    width         : 100%;
     -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    filter        : grayscale(100%);
 }
 #images ul li a:hover img {
     -webkit-filter: grayscale(0%);
@@ -338,7 +320,7 @@ a {
         padding: 50px 5px;
     }
     #logo {
-        width: 120px;
+        width : 120px;
         height: 72px;
         margin: 10px auto;
     }
@@ -357,10 +339,10 @@ a {
         text-align: center !important;
     }
     #hire-me {
-        font-size: 16px;
-        max-width: 350px;
+        font-size       : 16px;
+        max-width       : 350px;
         background-image: none;
-        text-align: center;
+        text-align      : center;
     }
 	#my-image {
         float  : none;
@@ -419,28 +401,28 @@ a {
     }
     .social-icons li a:hover img {
         border: 1px solid #0d171e;
-        width: 30px;
+        width : 30px;
     }
 	#everywhere ul li {
         width: 100%;
     }
     #everywhere ul li a {
-        height: 40px;
+        height     : 40px;
         line-height: 40px;
     }
     #what-i-do ul li img {
         display: block;
-        width: 72px;
-        height: 72px;
-        margin: 0px auto;
-        float: none;
+        width  : 72px;
+        height : 72px;
+        margin : 0px auto;
+        float  : none;
     }
     #what-i-do ul li p {
         display: block;
         width: 100%;
     }
     #about p {
-        background: none;
+        background  : none;
         padding-left: 5px;
     }
     #connect-info {
@@ -448,8 +430,8 @@ a {
         float: none;
     }
     #connect img {
-        width: 100%;
+        width     : 100%;
         margin-top: 20px;
-        float: none;
+        float     : none;
     }
 }
