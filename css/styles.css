@@ -152,6 +152,7 @@ a {
     line-height: 1.5em;
     font-weight: normal;
     padding    : 0px 30px;
+    outline    : none;
 }
 
 .container {
@@ -297,9 +298,11 @@ a {
 }
 #images ul li {
     padding: 5px;
+    outline: none;
 }
 #images ul li a {
     cursor: default;
+    outline: none;
 }
 #images ul li a img {
     width         : 100%;
@@ -308,7 +311,7 @@ a {
 }
 #images ul li a:hover img {
     -webkit-filter: grayscale(0%);
-    filter: grayscale(0%);
+    filter        : grayscale(0%);
 }
 
 /*** Responsieve ***/
