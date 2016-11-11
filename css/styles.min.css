@@ -65,6 +65,9 @@ a{text-decoration:none;color:white;}
 #footer ul li{display:block;float:right;}
 #footer a{margin:6px 0px 0px 10px;}
 #images{position:relative;}
+#images p {text-align: center;}
+#images p a{color:#FF8040;}
+#images p a:hover{color:#FF8040;text-decoration:underline;}
 #images ul{max-width:90%;}
 #images ul li{padding:5px;outline:none;}
 #images ul li a{cursor:default;outline:none;}
