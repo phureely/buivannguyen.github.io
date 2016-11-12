@@ -15,7 +15,7 @@ a{text-decoration:none;color:white;}
 #profile-info{max-width:620px;float:right;}
 #profile-info h1{color:#39D084;margin-bottom:10px;text-shadow:0px 0px 2px rgba(57,208,132,0.5), 0px 0px 6px rgba(0,0,0,0.7);-webkit-font-smoothing:antialiased;}
 #profile-info h2{color:#ffffff;margin-bottom:20px;text-align:left;font-size:1.3em;font-weight:normal;text-shadow:0px 0px 2px rgba(255,255,255,0.5), 0px 0px 6px rgba(0,0,0,0.7);-webkit-font-smoothing:antialiased;}
-#profile-info p{font-size:17px;line-height:26px;text-align:justify;}
+#profile-info p{font-size:17px;line-height:26px;}
 #hire-me{background:#31c478 url(../images/plane.png) no-repeat 30px center;color:white;padding:20px 60px 20px 80px;border-radius:40px;font-size:26px;margin:20px auto;display:block;text-shadow:1px 1px 25px rgba(39, 66, 86, 0.9), 0px 0px 2px rgba(255, 255, 255, 0.9);}
 #hire-me:hover{background-color:#11d170;}
 .social-icons li{display:inline;padding-right:15px;}
@@ -51,7 +51,7 @@ a{text-decoration:none;color:white;}
 #what-i-do{background-color:#274256;}
 #what-i-do ul li{padding-bottom:20px;}
 #what-i-do ul li img{width:10%;max-width:72px;float:left;}
-#what-i-do ul li p{width:88%;float:right;text-align:justify;}
+#what-i-do ul li p{width:88%;float:right;}
 #what-i-do ul li p a{color:#FF8040;}
 #what-i-do ul li p a:hover{color:#FF8040;text-decoration:underline;}
 #connect{background-color:#274256;}
