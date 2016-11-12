@@ -2,16 +2,16 @@ $(document).ready(function(){
     
 });
 $(window).on('load', function(){
-
+	$.scrollSpeed(100, 800);
+				
+    $('#header ul li a, #hire-me').click(function(){
+        var targetElement = $(this).attr('href');
+        $('html, body').animate({ scrollTop: $(targetElement).offset().top}, 1000);
+    });
 	setTimeout(function(){
 		$('#preloader').fadeOut('slow', function(){
 			$('#header-outer, #profile, #about, #everywhere, #what-i-do, #images, #connect, #footer-outer').fadeIn(function(){
-				$.scrollSpeed(100, 800);
 				
-			    $('#header ul li a, #hire-me').click(function(){
-			        var targetElement = $(this).attr('href');
-			        $('html, body').animate({ scrollTop: $(targetElement).offset().top}, 1000);
-			    });
 			    $('#about ul').slick({
 			    	autoplay: true,
 			    	autoplaySpeed: 7000,
