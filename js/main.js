@@ -6,7 +6,7 @@ $(window).on('load', function(){
 	setTimeout(function(){
 		$('#preloader').fadeOut('slow', function(){
 			$('#header-outer, #profile, #about, #everywhere, #what-i-do, #images, #connect, #footer-outer').fadeIn(function(){
-				$.scrollSpeed(100, 800);
+				$.scrollSpeed(50, 800);
 				
 			    $('#header ul li a, #hire-me').click(function(){
 			        var targetElement = $(this).attr('href');
