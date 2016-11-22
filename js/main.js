@@ -26,6 +26,7 @@ $(window).on('load', function(){
 					slidesToShow   : 3,
 					slidesToScroll : 3,
 					arrows         : false,
+					lazyLoad: 'ondemand',
 					responsive: [
 						{
 							breakpoint: 1024,
