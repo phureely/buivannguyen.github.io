@@ -1,3 +1,5 @@
+//$('#about,#connect,#everywhere,#footer-outer,#header-outer,#images,#profile,#what-i-do,#new-posts').css('display', 'none');
+
 $(window).on('load', function(){
 	$.scrollSpeed(100, 800);
 
@@ -7,7 +9,7 @@ $(window).on('load', function(){
 	});
 	setTimeout(function(){
 		$('#preloader').fadeOut('slow', function(){
-			$('#header-outer, #profile, #about, #everywhere, #what-i-do, #images, #connect, #footer-outer').fadeIn(function(){
+			$('#header-outer, #profile, #about, #everywhere, #what-i-do, #images, #new-posts, #connect, #footer-outer').fadeIn(function(){
 				$('#about ul').slick({
 					autoplay      : true,
 					autoplaySpeed : 7000,
