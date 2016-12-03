@@ -119,21 +119,28 @@ a {
 #about .container {
 	position: relative;
 }
+.slide-holder {
+	position: relative;
+}
 .slider-prev {
-	width: 5%;
+	width: 40px;
 	position: absolute;
 	top: 50%;
+	margin-top: -20px;
 	cursor: pointer;
+	outline: none;
 }
 .slider-prev:hover {
 	opacity: 0.8;
 }
 .slider-next {
-	width: 5%;
+	width: 40px;
 	position: absolute;
 	top: 50%;
 	right: 0px;
+	margin-top: -20px;
 	cursor: pointer;
+	outline: none;
 }
 .slider-next:hover {
 	opacity: 0.8;
@@ -474,10 +481,16 @@ a {
 		float: none;
 	}
 }
-
-/** preload ***/
-#header-outer, #profile, #about, #everywhere, #what-i-do, #images, #new-posts, #connect, #footer-outer {
-	display: none;
+#preloader {
+	width: 100%;
+    background-color: #203748;
+    height: 100%;
+    z-index: 1000;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
 }
 .spinner {
 	width: 60px;
