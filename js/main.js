@@ -64,7 +64,4 @@ $(document).ready(function(){
 	$('#images-slider-next').click(function(event){
 		$('#images ul').slick('slickNext');
 	});
-	$('#images ul li a').click(function(event){
-		event.preventDefault();
-	});
 });
