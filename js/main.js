@@ -14,7 +14,7 @@ $(document).ready(function(){
 	
 
 	$('#about ul').slick({
-		autoplay      : true,
+		autoplay      : false,
 		autoplaySpeed : 7000,
 		speed         : 1500,
 		arrows        : false
