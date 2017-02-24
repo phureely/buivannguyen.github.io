@@ -17,7 +17,9 @@ $(document).ready(function(){
 		autoplay      : false,
 		autoplaySpeed : 7000,
 		speed         : 1500,
-		arrows        : false
+		arrows        : false,
+		fade: true,
+		cssEase: 'linear'
 	});
 	$('#about-slider-prev').click(function(event){
 		$('#about ul').slick('slickPrev');
