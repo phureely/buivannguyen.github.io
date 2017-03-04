@@ -5,13 +5,11 @@ $(window).on('load', function(){
 	}, 500);
 });
 $(document).ready(function(){
-	$.scrollSpeed(100, 800);
 
 	$('#header ul li a, #hire-me').click(function(){
 		var targetElement = $(this).attr('href');
 		$('html, body').animate({ scrollTop: $(targetElement).offset().top}, 1000);
-	});
-	
+	});	
 
 	$('#about ul').slick({
 		autoplay      : false,
