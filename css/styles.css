@@ -35,6 +35,7 @@ a {
 #header a {
 	display: block;
 	float: left;
+	padding-top: 13px;
 }
 #header ul {
 	float: right;
