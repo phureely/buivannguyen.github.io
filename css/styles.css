@@ -31,6 +31,9 @@ h2 {
 #navbar a {
 	color: white;
 }
+#navbar a:hover {
+	color: #ff7f7b;
+}
 
 #navbar h1 {
 	margin: 0;
