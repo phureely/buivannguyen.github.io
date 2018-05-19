@@ -51,7 +51,7 @@ h2 {
 /** Profile section **/
 #profile {
 	min-height: 660px;
-	background: black url('../images/header-bg.png') no-repeat center center;
+	background: black url('../images/header-bg.jpg') no-repeat center center;
 }
 #profile .container {
 	margin-top: 215px;
