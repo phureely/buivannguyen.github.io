@@ -55,6 +55,7 @@ h2 {
 #profile {
 	min-height: 660px;
 	background: black url('../images/header-bg.jpg') no-repeat center center;
+    background-size: cover;
 }
 #profile .container {
 	margin-top: 215px;
