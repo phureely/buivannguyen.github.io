@@ -3,8 +3,8 @@
 		"image": "https://buivannguyen.com/images/slide/fullsize/7.jpg",
 		"questions": [
 			{
-				"question":: "Toan canh buc anh la mau gi",
-				"answers"::[
+				"question": "Toan canh buc anh la mau gi",
+				"answers":[
 					"do",
 					"den",
 					"vang",
@@ -13,8 +13,8 @@
 				"correct": 0
 			},
 			{
-				"question":: "2Toan canh buc anh la mau gi",
-				"answers"::[
+				"question": "2Toan canh buc anh la mau gi",
+				"answers":[
 					"2do",
 					"2den",
 					"2vang",
@@ -23,8 +23,8 @@
 				"correct": 0
 			},
 			{
-				"question":: "3Toan canh buc anh la mau gi",
-				"answers"::[
+				"question": "3Toan canh buc anh la mau gi",
+				"answers":[
 					"3do",
 					"3den",
 					"3vang",
@@ -38,8 +38,8 @@
 		"image": "https://buivannguyen.com/images/slide/fullsize/7.jpg",
 		"question": [
 			{
-				"question":: "Toan canh buc anh la mau gi2",
-				"answers"::[
+				"question": "Toan canh buc anh la mau gi2",
+				"answers":[
 					"do2",
 					"den2",
 					"vang2",
@@ -48,8 +48,8 @@
 				"correct": 0
 			},
 			{
-				"question":: "2Toan canh buc anh la mau gi",
-				"answers"::[
+				"question": "2Toan canh buc anh la mau gi",
+				"answers":[
 					"2do",
 					"2den",
 					"2vang",
@@ -58,8 +58,8 @@
 				"correct": 0
 			},
 			{
-				"question":: "3Toan canh buc anh la mau gi",
-				"answers"::[
+				"question": "3Toan canh buc anh la mau gi",
+				"answers":[
 					"3do",
 					"3den",
 					"3vang",
